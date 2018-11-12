@@ -1,0 +1,170 @@
+Class
+Object
+
+Inheritance -
+
+a class can derive feature function set from another class by using inheritance.
+in this case the inheriting class becomes the child class of the class its inheriting features from, which
+becomes the parent class.
+
+super class
+sub class
+
+
+Class A - name, marks
+
+Class B - age
+
+Class B inherits from Class A
+
+Object of Class B - age, name and marks
+
+parents - own a house
+
+child - two houses. third house
+
+Q1. Multiple inheritance. and multi level - 
+Create a class - Animal
+Create a child class - Land Animal (Animal)
+Create a child class - WaterAnimal (Animal)
+Create a child class Amphibian(LandAnimal,WaterAnimal)
+
+
+Overloading and Overriding - 
+
+overloading - a child class can have a method with the same name as that of parent but different signature [diff input arg, and output and body]
+
+class A: 
+	def sayHello():
+		print("hello")
+	
+class B(A):
+	def sayHello(str):  #overloading
+		newstr="hello"+str
+		print(newstr)
+
+
+when i create a child of class B, i will be able to access both methods sayHello of B and sayHello of A
+
+
+overriding - a child class can have a method with the same name and signature that of the parent class. 
+
+class A:
+	def sayBye():
+		print("bye")
+
+class B(A):
+	def sayBye():
+		print("sayonara")
+
+when you create an object of class B, only class B method is accessible because the class B method has overridden the class A method. 
+
+
+Animal 
+breathing():
+	print(breathing)
+
+LandAnimal
+	breathing()
+		print(from lungs)
+
+WaterAnimal
+	breathing()
+		print(from gills)
+
+
+Interface - contract which is created with help of empty methods. 
+a class trying to implement the interface will have to provide definition to those methods. 
+
+
+Car - 
+
+Chair - Interface 
+
+-should have 4 legs
+should have a seat to sit
+-rotation 
+recliner 
+arms
+adjustable height
+
+gardenchair
+officechair
+hotelreceptionchair
+
+
+Class 
+Object
+Constructor
+Inheritance
+Overloading
+Overriding
+Interface
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+Q1. Create a module where we have implemented the following functions - 
+add(x,y), sub(x,y), mul(x,y), mod(x,y), div(x,y)
+create a calling file to show the usage.
+
+
+Q2. Write down a program which asks user to enter a string, and prints if the string is palindrome or not
+same as its mirror image
+
+
+Q3. Find out the pypi module available which can be used to perform the following activity -
+
+a. read and write excel file
+b. generate logs. 
+

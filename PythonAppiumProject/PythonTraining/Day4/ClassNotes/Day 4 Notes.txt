@@ -1,0 +1,141 @@
+String
+
+str="Hello"
+
+each character of the string is associated with a index value, which is the position at which the character is found
+
+0 - H
+1- e
+2- l
+3- l
+4- o
+
+length = number of chars
+
+index = 0 - len -1 
+
+Common String functions - https://www.programiz.com/python-programming/methods/string
+
+Q1. Ask user to enter a string, print its reverse. # do not use the inbuilt reverse function if any.
+
+
+Split and Join
+
+split - is to break a main string into a list of substrings, based on a seperator/delimeter
+
+str="my:name:is:james:bond"
+
+seperator - ":" 
+
+Join - is to take a list of strings and concatenate them together to create a new string with help of a seperator
+
+content can contain different data type 
+
+format specifier
+
+%s- str
+%d- int
+%f- float
+%b- bool
+
+
+Q2. create a list of 5 string values, print the string which has max characters.
+
+create a list with strings.
+we create a var max=0, and newstr="" 
+we iterate through the list
+and for each entry we compare the length of the str with max
+if max is less than the length we assign max the length of the string and newstr- the str data
+and continue with the loop
+
+
+listS=["rose", "liliac", "xyz"]
+max=0
+
+if(max<len(rose))
+ max=4
+ newstr=rose
+
+
+Functions - 
+
+built in function
+
+user defined function
+
+print
+input
+int()
+float()
+
+def funcname(args):
+	//statements 
+	return value
+
+
+module - only has functions
+
+
+Python - Packages 
+
+PyPi
+https://pypi.org/
+
+Example module - xmltoDict 
+
+https://www.journaldev.com/19392/python-xml-to-json-dict
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

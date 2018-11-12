@@ -1,0 +1,267 @@
+Q1. for loop for all numbers less than the numerator
+
+and divide the number by them, take mod.
+
+if for any the value is 0 u set a fla to true - number is not prime, else you print the number is prime. 
+
+
+num=10
+prime=true
+
+for j in range(1..21):
+	for i in range(1..j/2+1):
+		if ((j%i)==0):
+			prime=false
+
+	print(prime)
+
+	if(prime):
+		//print the multiplication table
+
+
+Data structure-
+
+a. List - a collection of entities which may or may not belong to the same data type
+and it can be changed. 
+
+b. Arrays - list, but allows storage of only one data type
+
+c. Tuple - list, but it cannot be changed. 
+
+d. Dictionary - a collection of key-value pairs. 
+
+
+Array - 
+
+index- is the positon in the collection which stores a value. 
+
+index value ranges from 0 - length of collection - 1
+
+arr=[1,2,3,4,5]
+
+length - 5
+index - 0-4
+
+index-data
+0 - 1
+1 - 2
+2 - 3
+3 - 4
+4 - 5
+
+
+Q1. create a list of 10 values, where you ask end user to provide the information. 
+
+the information is the marks secured by 10 students for the subject maths. 
+
+from the list provide the following information -
+
+a. highest marks scored
+b. lowest marks scored
+c. average of the marks scored by first 5 students
+
+
+for i in scoreoFirstFive:
+    score += i
+
+
+firstFive=marks[0:5]
+
+
+for i in firstFive:
+	total=total+i
+
+average=total/len(firstFive)
+
+List in Python - https://docs.python.org/3/tutorial/datastructures.html
+
+
+
+Tuple- 
+
+Dictionary - a collection of key-value pairs.
+
+a key is associated with a value.
+
+key => value 
+
+
+Q2. Create a dictionary where the following data is available - 
+
+Employee id:[Employee name, Employee Age, Employee designation] 
+
+E001: [Tom,43,CEO]
+E002:[Roma, 34, VPHR]
+E003:[Frieda, 56, CTO]
+E004:[Harry, 52, CFO] 
+
+iterate through the dictionary and print the information as follows for each employee record
+
+ID- E001
+Name- Tom
+Age- 43
+Designation- CEO
+
+key:value
+
+keys-
+E001, E002, E003... 
+
+print(empDict["E001"]) 
+
+data=[Tom,43,CEO]
+
+data[0]=Tom
+data[1]=43
+data[2]=CEO
+
+print( empDict["E001"][0]) - Tom
+print( empDict["E001"][1])- 43
+print( empDict["E001"][2])- CEO
+
+
+for emp in empDict.keys():
+	print( empDict[emp][0]) 
+	print( empDict[emp][1])
+	print( empDict[emp][2])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

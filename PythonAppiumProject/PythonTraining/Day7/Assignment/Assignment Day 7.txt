@@ -1,0 +1,42 @@
+Q1. Create a new class called “City” that can be used to keep track of location information for a given city.  Your class should include the following – be sure to comment your class appropriately:
+A.	String name
+B.	double lon (for longitude)
+C.	double lat (for latitude)
+D.	A constructor that accepts a name, lon and lat value and stores them in the instance variables for the object
+E.	A method that reports the current position of a city.  Here’s a method header to get you started:
+public void report()
+F.	A method that computes the distance from the lon and lat of one city to the lon and lat of another city.  Use the standard distance formula to compute this value (let’s pretend that the cities lie on a flat plane and not on a sphere!)  Here’s a method header to get you started:
+public double distanceFrom(City otherCity)
+Create a new class called “UseCityClass”.  Do the following in this class:
+G.	Prompt the user to enter in a number of cities (i.e. How many cities do you want to create?)
+H.	Next, ask the user to enter in the name, lon and lat for each city.  Note that you will probably need to use two scanners since you are asking for both String and double data.   Create a new City object and store it in an array that is designed to hold objects of type City (i.e. City[] myCities)
+I.	Iterate through your array of Cities and ask each city to report its position.
+J.	Iterate through your array of Cities and compute the distance from each city to each other city.  Ensure that you do not calculate the distance from a given city back to itself (i.e. no need to compute distance between NYC and NYC – the result will be zero) — Here’s a sample running of your program.
+K.	How many cities? 3
+L.	City # 1
+M.	Enter name: NYC
+N.	Enter longitude: 50
+O.	Enter latitude: 75
+P.	
+Q.	City # 2
+R.	Enter name: Chicago
+S.	Enter longitude: 25
+T.	Enter latitude: 10
+U.	
+V.	City # 3
+W.	Enter name: LA
+X.	Enter longitude: 0
+Y.	Enter latitude: 50
+Z.	
+AA.	--------
+BB.	
+CC.	City: NYC is at: 50.0, 75.0
+DD.	City: Chicago is at: 25.0, 10.0
+EE.	City: LA is at: 0.0, 50.0
+FF.	
+GG.	NYC is 69.6419413859206 units away from Chicago
+HH.	NYC is 55.90169943749474 units away from LA
+II.	Chicago is 69.6419413859206 units away from NYC
+JJ.	Chicago is 47.16990566028302 units away from LA
+KK.	LA is 55.90169943749474 units away from NYC
+LA is 47.16990566028302 units away from Chicago

@@ -1,0 +1,22 @@
+Press Ctrl+Shift+A.
+In the popup frame, start typing Increase font size or Decrease font size, and press Enter as soon as the corresponding command gets the focus.
+The font will grow larger or smaller.
+
+To reset the font size
+Press Ctrl+Shift+A.
+In the popup frame, start typing Reset font size and press Enter as soon as the corresponding command gets the focus.
+The default font size will be restored.
+
+Note -
+
+#  Reference - https://hackernoon.com/working-with-spreadsheets-using-python-part-2-c8b4ea7e2b65
+#  Reference  - https://hackernoon.com/working-with-spreadsheets-using-python-part-1-380a120387f
+
+pip list - list the packages installed in the machine
+pip show  <packagename> - list the details of the package
+
+pip show xlrd
+
+pip uninstall <packagename>
+
+pip search selenium

@@ -1,0 +1,94 @@
+setup () -
+precondition
+
+run() - 
+steps which we take to test the functionality
+
+teardown() - 
+clean up
+
+
+start and the end of the test should always be same. 
+
+application - login func
+
+test()
+valid login()
+
+test()
+invalid login()
+
+setup()
+open the application
+sign in page
+
+
+teardown()
+close the app
+
+setup()
+open the application
+sign in page
+
+test()
+valid login()
+
+teardown()
+close the app
+
+
+---
+
+setup()
+open the application
+sign in page
+
+test()
+invalid login()
+
+teardown()
+close the app
+
+
+
+
+Q1. Create a methods - findGreater(), findSmaller(). Design unit test around it. 
+
+
+Appium Setup -
+
+a. Android studio
+
+b. android_home variable
+
+c. appium server 
+
+d. android device
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+Q1. Write down a program which reads the contents of the file, and prints only the mobile number from it.
+
+contents -
+
+"he vote, scores of protesters broke through 9028765112 barricades and staged a raucous sit-in protest on the US Capitol steps.
+
+As protesters chanted "S 8371010382
+
+n process has 3791038193 laid bare the partisan gridlock on 3801300482 Capitol Hill and the political polarization of America just a
+
+ and order and justice. And we really have become even more so than ever before the party of opportun"
+
+
+

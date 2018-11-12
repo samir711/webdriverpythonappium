@@ -1,0 +1,21 @@
+Q1. Write down a program where we ask user to enter measurement for a sqaure, a rectangle and a circle. based on the information,
+we print the area and the perimeter calculated. 
+
+
+Q2. Write down a program where we take input from the end user, and find out if the number
+ is divisible by 5 but not 7 
+
+
+Q3. Ask user to enter the following information -
+
+P = the principal investment amount (the initial deposit or loan amount)
+r = the annual interest rate (decimal)
+n = the number of times that interest is compounded per year
+t = the number of years the money is invested or borrowed for
+
+Find out the amount -
+refer to link- https://www.thecalculatorsite.com/articles/finance/compound-interest-formula.php
+
+
+email - info@5elementslearning.com
+

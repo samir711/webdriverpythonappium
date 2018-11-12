@@ -1,0 +1,244 @@
+I/O - input operation - read from keyboard or file
+output - printing to a file or console window
+
+print()
+input()
+
+open function - file path as input, mode in which you want to open the file
+
+read mode
+write mode
+append mode
+readwrite mode
+appendreadmode
+
+
+read mode- read the contents of the file. 
+
+write mode- we will be able to print to the file but everytime it will overwritten
+
+append mode - in this you will be adding to the existing contents of the file.
+
+
+file handle - we can access the contents of the file
+
+close the file.
+
+
+d:\write.txt
+
+d:\\
+
+\-escape sequence - take it as it is
+
+
+Q1. Create manually a csv file with the following contents
+
+email,password
+
+write down a program which read the contents of the file, and seperate out the email and password.
+
+contents
+roma@yahoo.com,roma@123
+rhea@gmail.com,rhea
+tom_123@biz.in,tom_123
+
+output
+email-roma@yahoo.com
+pwd- roma@123
+
+email-
+pwd-
+
+
+
+str= roma@yahoo.com,roma@123
+
+data=str.split(",")
+data[0]= email
+data[1]= pwd
+
+
+Regular Expression - 
+
+regex- pattern which is created to match information from a set of strings. 
+
+meta characters - 
+
+. - any character
+* - 0 or more occ of prev expression
++ - 1 or more occ of prev expression
+? - 0 or 1 occ of prev expression
+^- start of an expression
+$ - end of the expression
+[a-z]- any alphabet
+[A-Z] - any caps alphabet
+[0-9]- any digit
+{m}- exactly m times
+{m,n} - min m times, max n times
+
+
+Q1. ct, cat, caaat, caaaaaat, caaaaaaaaaaaaaaaaaaaaaat. 
+observation -
+-starts with c - ^c
+-ends with t - t$
+- 0 or more occ of a - a*
+expr- ^ca*t$
+
+Q2. gold, sold, told, fold, bold, cold,...... 
+obs-
+- starts with any char
+-end three - "old"
+
+^[a-z]old$
+
+
+Q3. DEW1234, FRE4330, MJI3920, LOK2939, SAQ2134, FED3437 ..
+obs-
+-first three are alphabets
+-last 4 are digits
+
+expr- ^[A-Z]{3}[0-9]{4}$
+^[A-Z][A-Z][A-Z][0-9][0-9][0-9][0-9]$
+
+
+Q4. Create a regex to match any 10 digit mobile number which starts with 78
+^78[0-9]{8}$ 
+
+
+Q5. Create a regex which will match a ssn number. 
+
+321-09-4930, 893-23-9392, 931-76-2839....
+
+^[0-9]{3}-[0-9]{2}-[0-9]{4}$
+
+\d - any digit
+\D - non digit
+\w- represents word
+\W - non word
+\s- space
+\S - no space
+[^] - negation
+
+^\d{3}-\d{2}-\d{4}$
+
+
+Q6. '@', '.' 
+
+alphanumeric@alpha.alpha
+start is always alphabet
+
+roma123@roma.com
+rhea@gmail.com
+tom21@biz.in
+
+^\w+\d*@\w+\\.\w+
+
+
+Q7. create regex for special character
+expr- \W\D\S
+can match - #,@,&, * .... 
+
+link to refer- https://www.tutorialspoint.com/python/python_reg_expressions.htm
+
+
+Search -
+
+re.search - expr, flag
+
+re.M - global match 
+re.I - case insensitive
+
+
+Q3. Write down a program which expects a NRIC number.
+
+e.g. - S8832267C
+
+M9392309L
+
+B3820421K ...
+
+prints as output - valid entry or invalid entry
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

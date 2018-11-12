@@ -1,0 +1,302 @@
+Program - set of instructions given to a system with some input to get the desired output. 
+
+- Syntax
+
+- Pseudo code/ logical part/ algorithm
+
+
+syntax part changes when we change a programming language from one to another. but the logic remains the same. 
+
+
+Rules - 
+
+a. there are no semicolons. 
+b. there are no curly braces for marking start /end of a module/if/loop
+c. we do not declare variables in python
+d. for commenting we use "#" symbol for a single line comment. 
+
+Readable Code - we should use proper space/ indentation
+we should declare variable/method/files with proper naming convention
+we should provide comment wherever possible.
+
+
+Datatypes in Python -
+
+number - int, float
+string - a collection of chars
+boolean - true/ false
+
+
+
+Variable declaration - 
+
+var = 32 - > integer
+dbl =90.65 => double/float
+str="Hello" -> string
+flag=false => boolean 
+
+
+Input from end user - 
+
+var=input("Enter the number: ")
+print(type(var))
+
+- string. 
+
+printing to console/ reading from keyboard the datatype which is associated with the value is always a string. 
+
+conversion functions - convert one dt to another
+
+int() - converts string to int
+float() - converts string to float
+str()- converts number/bool to string. 
+
+
+
+var=int(input("enter the number: ")) 
+
+first the input will be read from the keyboard and then converted into an int value and assigned to the var. 
+
+
+Q1. To Calculate area of a circle where radius is provided by the end user. 
+
+- ask user to enter the radius
+- store it in a var- rad
+- calculate area using the formula area=3.141*rad*rad
+-print area
+
+
+Q2. Write down a program which asks user for principal, rate, and time, based on the input calculate the simple interest the user has to pay.
+
+principal-int
+rate-double
+time-int
+
+SI =(p*r*t)/100
+
+
+Numeric Operators - 
+
+
+Q3- we need to find the lowest possible amount for each denomination in a currency value.
+
+1$ =100 cents
+1 quarter = 25 cents
+1 dime = 10 cents
+1 nickle = 5 cents
+1 cent
+
+$54.78
+
+5478 cents - not looking for this
+
+dollar = 54
+quarters = 3
+dime=0
+nickle=0
+cents=3
+
+hint- use division and mod operator
+hint- convert all dollars into cents first
+
+- 5478*100 = 5478 
+
+dollar= amnt/100 = 54 
+ra = amnt%100 = 78 
+
+quarter = ra/25 =3
+raa= ra%25 = 3
+
+dime = raa/10 =0
+raaa = raa%10= 3
+..
+..
+
+
+Boolean Operators - 
+
+OR, AND, NOT
+
+a	b	a|b
+T	T	T
+F	T	T
+T	F	T
+F	F	F
+
+
+AND 
+
+a	b	a&b
+T	T	T
+F	T	F
+T	F	F
+F	F	F
+
+
+NOT
+
+a	!a
+F	T
+T	F
+
+Q4. Find out all numbers which are even and greater than 10. 
+
+cond1 = num%2==0
+cond2, num>10 
+
+((num%2)==0)&(num>10))
+
+
+Q5. Find out all number which are divisible by 2 or 3. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

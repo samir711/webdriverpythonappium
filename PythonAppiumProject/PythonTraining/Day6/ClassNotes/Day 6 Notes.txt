@@ -1,0 +1,210 @@
+Errors -
+
+syntax errors - compilation, program will not execute
+
+run time errors - at the time of execution. divide anumber zero, or trying to access a list index which doesnt exist
+
+logical errors - mistake at pseudo code. logic of the program
+
+
+Exceptions -
+
+- event occurs during the execution of the program, disrupts the normal behaviour of the program. 
+
+- handle exceptions - by writing code which is prone to exception in a try except block so that the program does't behave abruptly
+
+system unstable
+data loss
+data to be corrupted
+
+100 test cases to execute
+
+5 test cases required a file. [21-25]
+
+no exception handling for test scenarios which required external file hadling
+
+- only 20. 
+
+
+- 95 would have been executed if those 5 scenarios had exception handling. 
+
+try:
+	//code prone to exception
+except: 
+	//handle the caught the exception
+else:
+	//incase exception doesn't come
+finally:
+	//will always execute whether exception comes or not
+
+
+Exception as an argument - 
+
+Exception in python - https://docs.python.org/3/tutorial/errors.html
+
+Built in exception -https://docs.python.org/3/library/exceptions.html
+
+
+
+Q1. Write down a program where we create a list of 5 numbers, write a step to access a value in the list, giving a wrong index
+
+print the exception by using e.args, and the class/type of exception encountered
+
+Raise Exception -
+
+raise - which causes an exception to be raised.
+
+
+Q1. Ask user to enter two numbers, print the greatest. 
+
+
+OOPs - 
+
+everything around us is an object. 
+
+- attributes - properties
+
+- functions - methods
+
+
+phone 
+
+properties - 
+
+os
+model
+screensize
+touch
+
+functions -
+makecall
+recievecall
+switch on
+switch off
+browse
+camera
+
+
+Class- blue print or a template from which objects are derived. 
+objects - instance of a class. 
+
+objects of the same class are similar. objects of different class are not similar to each other. 
+
+
+Constructor- __init()__ 
+
+always called when we create an object of the class. 
+
+
+Q2. Create a class called as student, which has the following properties - name, age, percentage.
+create three objects of the student class.
+create a method, display information which prints the name and percentage of student. 
+- print the name of the oldest student.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+currency = float(input("enter value in $- "))
+
+currency = currency * 100
+dollar = int(currency / 100)
+print("dollar-", dollar)
+ra = currency % 100
+# print(ra)
+quarters = int(ra / 25)
+print("quarter-", quarters)
+ra = int(ra % 25)
+# print(ra)
+dimes = int(ra / 10)
+print("dime-", dimes)
+ra = int(ra % 10)
+# print(ra)
+nickle = int(ra / 5)
+print("nickle-", nickle)
+ra = int(ra % 5)
+# print(ra)
+cents = int(ra / 1)
+print("cents-", cents)

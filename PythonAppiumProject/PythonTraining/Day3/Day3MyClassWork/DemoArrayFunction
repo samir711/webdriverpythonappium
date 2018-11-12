@@ -1,0 +1,27 @@
+import array as my_array
+
+intA = my_array.array("I", [3, 6, 9, 10, 14, 21, 48])
+
+print(intA)
+
+
+floatA = my_array.array("d", [3.7, 9.8, 1.4])
+
+print(floatA)
+
+intA.append(6)
+print(intA)
+print(intA.count(6))
+print(intA.index(21))
+print(intA.index(6))
+
+intA.insert(1, 10)
+print(intA)
+intA.pop()
+print(intA)
+
+intA.remove(21)
+print(intA)
+
+intA.reverse()
+print(intA)

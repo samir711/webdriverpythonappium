@@ -1,0 +1,166 @@
+Excel File - 
+
+file - workbook- worksheet - rows,cols - cell - read data from or we write data to. 
+
+
+XLWT- To write Excel files 
+
+https://pypi.org/project/xlwt/
+
+install - pip install xlwt
+
+XLRD- To Read excel files
+https://pypi.org/project/xlrd/
+
+install- pip install xlrd
+
+
+Database - a collection of table, table - a collection of records. 
+
+DBMS - RDBMS - oracle, sql server, postgres... mysql
+
+- connection string : path where db is hosted, name of db, username, pwd
+- statement - query object 
+- execute your query 
+- resultset
+
+demodb, studentinfo, 5 records
+
+
+Mysql.connector- https://pypi.org/project/mysql-connector/
+
+Install MySQL-
+https://dev.mysql.com/downloads/mysql/
+helpful mysql commands- http://www.zbeanztech.com/blog/important-mysql-commands
+
+DB Script-
+
+mysql> use exampledb;
+Database changed
+mysql> create table exampletab(eid int, ename varchar(20));
+Query OK, 0 rows affected (0.04 sec)
+mysql> insert into exampletab values(1,"Paula");
+Query OK, 1 row affected (0.08 sec)
+mysql> select * from exampletab;
++------+-------+
+| eid  | ename |
++------+-------+
+|    1 | Paula |
++------+-------+
+1 row in set (0.00 sec)
+
+SQLite - https://www.tutorialspoint.com/sqlite/sqlite_python.htm
+
+
+XML ad JSON :
+
+XML - Extensible markup language
+
+<books>
+	<book name ="the jungle book">
+		<author> rudyard kipling</author>
+		<yop> 1987</yop>
+	</book>
+	<book name ="da vinci code">
+		<author> dan brown</author>
+		<yop> 2007</yop>
+	</book>
+
+</books>
+
+root node - books 
+two child nodes - book
+
+book - attribute - name
+	author and yop are child node of book
+
+xpath - path traversed to reach the node of interest
+
+/books/book[0]/author 
+
+//author[0]
+
+XML- https://www.w3schools.com/xml/
+
+https://docs.python.org/2/library/xml.etree.elementtree.html
+
+
+JSON - Java Script Object Notion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,384 @@
+If Statement -
+
+simple if 
+
+if(condition):
+	//statements 
+
+
+if -else 
+
+if(condition):
+	//statements which execute if true
+else:
+	//statement which execute if false
+
+
+
+Q1. Ask user to enter a number, find out if the number is even or odd. 
+
+a. ask user to enter a number
+b. divide the number by 2
+c. if output is 0, the number is even, else the number is odd. 
+
+Q2. Ask user to enter two numbers, find out which one is greater. 
+
+if(num1>num2):
+
+
+
+multiple if 
+
+if(condition):
+	//statements
+elif(condition:)
+	//statement
+elif(condition):
+	//statements
+else:
+	//statements
+
+Q3. Ask user to enter student marks, based on it print the grade received by the student. 
+
+81-100 - A
+61-80 - B
+41-60 - C
+0-40 - FAIL
+<0, >100- INVALID
+
+
+if((marks>80)&(marks<=100)):
+
+
+Q4.  based on the following information, print the weather condition for today
+
+humidity	temperature	weather forecast
+0-20	0-20		cold
+20-60	30-50		hot
+60-100	10-30		rain
+
+
+if(((humidity>=0)&(humidity<=20))&(temperature>=0)&(temperature<=20))): 
+	print("cold") 
+
+
+(humidity in(0..20)&temperature in(0..20) )
+
+
+Nested If -
+
+if(main condition):
+	//statements
+	if(sub condition):
+		//statements
+		if(sub sub condition):
+			//staement
+		else:
+			//statement
+	else:
+		//statements
+else:
+	//staements
+
+
+Q5. For the following table of income, calculate the tax an individual has to pay
+
+gender = male  [0]
+
+income
+0-30000		0%
+30001-50000	10%
+50001-1,00,000	20%
+1,00,001		30%
+
+gender = female [1]
+
+income
+0-30000		0%
+30001-50000	7%
+50001-1,00,000	14%
+1,00,001		21%
+
+
+if(gender==0):
+	if((income>=0)&(income<=30000)):
+		tax=0%
+	elif((income>=30001)&(income<=50000)):
+		tax=10%
+	...
+	..
+elif(gender==1):
+	if((income>=0)&(income<=30000)):
+		tax=0%
+	elif((income>=30001)&(income<=50000)):
+		tax=7%
+	...
+	..
+else:
+	print(bad gender value)
+
+
+
+Loops: 
+
+while , for 
+
+
+i=0
+while(i<10):
+	print i
+	i=i+1
+
+
+i=0
+i=1
+..
+..
+i=9
+
+while is looped until the condition is true. when the condition becomes false, it exists the loop. 
+
+
+
+Q6. Find out all even numbers between 1-100
+
+while, if
+
+
+Q7. Ask user to enter a number, and print it. repeat the process, until user enters negative number. 
+
+
+1
+1
+3
+3
+-10
+exit
+
+
+For Loop -
+
+range- in python 
+
+range - start, stop, step [default-1]
+
+a. range(1,10,2) 
+
+1- start
+10- stop
+2- step 
+
+1,3,5,7,9 
+
+b. range(1,10) 
+1,2,3,4,..9
+
+
+c range(20,10,-2) 
+
+20,18,16... 12
+
+link to refer- https://www.w3schools.com/python/ref_func_range.asp
+
+----------------------------------------
+for i in range(1,10):
+	print(i) 
+
+1,2,3,4,...9
+
+Q7. Write a program, which prints all even numbers in ascending order between 1-10.
+and all odd numbers in descending order between 1-10
+use for loop
+
+ascending
+range(1,10)
+
+descending
+range(10,1,-1)
+
+
+
+Loop Continuation 
+
+Break - is to exit the loop /condition
+
+Pass - Skipping a value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
